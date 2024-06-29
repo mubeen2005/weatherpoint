@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height:100vh;
+    background-color:darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    width: 30%;
+    min-height: max-content;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 3vh;
+}
+
+.search{
+    /* background-color: red; */
+    padding: 2vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+    background-color: #fff;
+    width: 30%;
+    border-radius: 18px;
+    margin-bottom: 2vh;
+}
+
+.search input{
+    padding: 1.8vh;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 16px;
+    background-color: rgb(211, 222, 226);
+}
+
+.search input::placeholder{
+    font-size: 15px;
+}
+
+.search button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(211, 222, 226);
+}
+
+.search button i{
+    font-size: 2.9vh;
+}
+
+.logo{
+    margin-left: 22vh;
+    margin-top: 3vh;
+}
+
+.logo img{
+    width: 25vh;
+}
+
+.temp{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.temp h1{
+    font-weight: bolder;
+}
+
+.info{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 5vh;
+    margin-top: 5vh;
+}
+
+.humidity{
+    display: flex;
+}
+
+.humidity i{
+    font-size:7vh;
+}
+
+.wind{
+    display: flex;
+}
+
+.wind i{
+    font-size:7vh ;
+}
+
+.wind,.humidity p{
+    font-size: 2.6vh;
+}
+
+.wrong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    background-color: #fff;
+    padding: 2vh 8vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.wrong h1{
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+
+.wrong img{
+    width: 50vh;
+    margin-top: 5vh;
+}
+
+.cards{
+    display: none;
+}
+
+@media (max-width:600px) {
+    .search{
+        width: 90%;
+    }
+
+    .search input{
+        font-size: 2.3vh;
+        padding: vh;
+    }
+
+    .search input::placeholder{
+        font-size: 2.3vh;
+    }
+
+    .search button i{
+        font-size: 3.5vh;
+    }
+
+    .cards{
+        width: 90%;
+    }
+    
+    .logo{
+        margin-left: 10vh;
+    }
+
+    .logo img{
+        width: 20vh;
+    }
+
+    .humidity i{
+        font-size: 5vh;
+    }
+
+    .humidity p{
+        font-size: 2vh;
+    }
+
+    .wind i{
+        font-size: 5vh;
+    }
+
+    .wind-info h2{
+        font-size: 2.5vh;
+    }
+
+    .wind-info p{
+        font-size: 2vh;
+    }
+
+    
+.info{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2.5vh;
+    margin-top: 5vh;
+}
+
+.wrong{
+    width: 90%;
+}
+
+.wrong img{
+    width: 38vh;
+    margin-left: -7vh;
+
+}
+
+
+    
+    
+}
