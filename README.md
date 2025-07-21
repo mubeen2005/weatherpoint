@@ -12,7 +12,7 @@ A sleek and responsive **Weather App** built using **HTML**, **CSS**, and **Java
 
 ## 🖼️ Preview
 
-![weatherpoint](weather.png)  
+![weatherpoint](whether.PNG)  
 
 
 ---
@@ -40,5 +40,4 @@ A sleek and responsive **Weather App** built using **HTML**, **CSS**, and **Java
 
 ---
 
-## 📁 Folder Structure
 
