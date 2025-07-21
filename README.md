@@ -6,15 +6,14 @@ A sleek and responsive **Weather App** built using **HTML**, **CSS**, and **Java
 
 ## 🌐 Live Demo
 
-🔗 [Check it Live]()  
-*(Replace with your deployed GitHub Pages link)*
+🔗 [Check it Live](https://mubeen2005.github.io/weatherpoint/)  
 
 ---
 
 ## 🖼️ Preview
 
-![Weather App Preview](assets/weather-app-preview.png)  
-*A screenshot or GIF showcasing the app UI.*
+![weatherpoint](weather.png)  
+
 
 ---
 
