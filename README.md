@@ -38,6 +38,5 @@ A sleek and responsive **Weather App** built using **HTML**, **CSS**, and **Java
 - 🧭 Responsive and mobile-friendly UI
 - ❌ Error handling for invalid city names
 
----
 
 
